@@ -3,6 +3,7 @@ import random
 import numpy as np
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 from streamlit_solver import genetic_tsp
 from utils import read_input
@@ -93,3 +94,35 @@ cities = read_input(f"data/{select_dataset}")
 
 done.write("**Done**!")
 final_distance.write(f"**Final Distance:** {best_distance}")
+
+def mermaid(code: str) -> None:
+    components.html(
+        f"""
+        <pre class="mermaid">
+            {code}
+        </pre>
+
+        <script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({{ startOnLoad: true }});
+        </script>
+        """
+    )
+
+
+mermaid(
+    """
+    graph TD;
+    A[Initialize Population] --> B[Evaluate Fitness];
+    B --> C[Select Parents];
+    C --> D[Crossover];
+    D --> E[Mutate Offspring];
+    E --> F[Evaluate Fitness];
+    F --> G[Select Survivors];
+    G --> H[Check Termination];
+    H --> I[Yes];
+    H --> B[No];
+    I --> J[Output Best Solution];
+
+    """
+)
