@@ -64,7 +64,7 @@ def breed(population, mutation_prob):
 
     return population + offspring
 
-    
+
 def rank_selection(population, num_selected):
     pop_by_fitness = sorted(
         population, key=lambda ind: evaluate_fitness(ind), reverse=True
