@@ -10,7 +10,7 @@ from utils import read_input
 st.set_page_config(layout="wide")
 
 """
-# Genetic TSP
+# Genetic Optimization Algorithm
 
 ### Demo of genetic algorithm solver for the Traveling Salesman Problem.
 
