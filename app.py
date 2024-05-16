@@ -124,6 +124,6 @@ mermaid(
     H --> B[No];
     I --> J[Output Best Solution];
 
-    """
+    """,
     height=600,
 )
