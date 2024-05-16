@@ -125,4 +125,5 @@ mermaid(
     I --> J[Output Best Solution];
 
     """
+    height=600,
 )
