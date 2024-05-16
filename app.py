@@ -21,6 +21,8 @@ solution.
 """
 st.markdown("> Mohammed Husamuddin")
 
+st.sidebar.header("Select Parameters")
+
 with st.sidebar:
     select_dataset = st.selectbox(
         label="Select a dataset",
