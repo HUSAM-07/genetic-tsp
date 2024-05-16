@@ -12,12 +12,14 @@ st.set_page_config(layout="wide")
 """
 # Genetic TSP
 
-Demo of genetic algorithm solver for the Traveling Salesman Problem.
+### Demo of genetic algorithm solver for the Traveling Salesman Problem.
 
-Feel free to play with the parameters in the sidebar and see how they impact the
+- Feel free to play with the parameters in the sidebar and see how they impact the
 solution.
+- This application is developed for showchasing as part of the Design & Analysis Course
 
 """
+st.markdown("> Mohammed Husamuddin")
 
 with st.sidebar:
     select_dataset = st.selectbox(
