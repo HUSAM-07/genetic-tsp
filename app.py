@@ -16,7 +16,7 @@ st.set_page_config(layout="wide")
 
 - Feel free to play with the parameters in the sidebar and see how they impact the
 solution.
-- This application is developed for showchasing as part of the Design & Analysis of Algorithms Course
+- This application is developed as part of the Design & Analysis of Algorithms Course
 
 """
 st.markdown("> Mohammed Husamuddin")
