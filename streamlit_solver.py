@@ -135,3 +135,4 @@ def genetic_tsp(
     progress_bar.empty()
 
     return best_solution, best_distance
+
