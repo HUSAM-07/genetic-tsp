@@ -2,7 +2,7 @@
 
 ### Demo Overview
 - Uses a genetic algorithm to solve the Traveling Salesman Problem (TSP).
-- Developed for the Artificial Intelligence Course by Mohammed Husamuddin.
+- Developed for the Artificial Intelligence Course by *Mohammed Husamuddin*.
 
 ### Parameters
 - **Dataset Selection**: Choose from multiple pre-defined datasets.
@@ -19,9 +19,6 @@
 ### Execution
 - Runs the genetic algorithm with selected parameters.
 - Visualizes the optimization process and final results.
-
-### Author & Developer
-**Mohammed Husamuddin**
 
 
 > This is not meant to have great performance (neither in terms of speed or accuracy), it
